@@ -1,11 +1,11 @@
-
-
+---
+---
 //
 // IMPORTS
 //
 
-@import "reset";
-@import "variables";
+//@import "reset";
+//@import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,700);
@@ -2530,5 +2530,5 @@ span {
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";
-@import "svg-icons";
+//@import "highlights";
+//@import "svg-icons";
