@@ -1,181 +1,186 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} â€“ {% endif %}{{ site.name }} â€“ {{ site.description }}</title>
 
-    {% include meta.html %}
+<head>
+  <title>{% if page.title %}{{ page.title }} Ã¢â‚¬â€œ {% endif %}{{ site.name }} Ã¢â‚¬â€œ {{ site.description }}</title>
 
-    <!--[if lt IE 9]>
+  {% include meta.html %}
+
+  <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/animate.min.css" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/lightbox.css" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/responsive.css" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/animate.min.css" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/lightbox.css" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/responsive.css" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
+    href="{{ site.baseurl }}/feed.xml" />
 
-  <body>
-      <header id="header">      
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 overflow">
-                    <div class="social-icons pull-right">
-                        <ul class="nav nav-pills">
-                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                            <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href=""><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div> 
-                </div>
-              </div>
+  <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+</head>
+
+<body>
+  <header id="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 overflow">
+          <div class="social-icons pull-right">]
+            <ul class="nav nav-pills">
+              <li><a href=""><i class="fa fa-facebook"></i></a></li>
+              <li><a href=""><i class="fa fa-twitter"></i></a></li>
+              <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+              <li><a href=""><i class="fa fa-dribbble"></i></a></li>
+              <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
         </div>
-        <div class="navbar navbar-inverse" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-
-                    <a class="navbar-brand" href="/">
-                      <h1><img src="svg/logo.svg" alt="{{ site.name }}"></h1>
-                    </a>
-                    
-                </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="/" alt="{{ site.description }}">Home</a></li>
-                        <li class="dropdown"><a href="#">C?a l??i ch?ng mu?i <i class="fa fa-angle-down"></i></a>
-                            <ul role="menu" class="sub-menu">
-                                <li><a href="aboutus.html">C?a l??i d?ng x?p</a></li>
-                                <li><a href="aboutus2.html">C?a l??i d?ng cu?n</a></li>
-                                <li><a href="service.html">C?a l??i d?ng lùa</a></li>
-                                <li><a href="pricing.html">C?a l??i c? ??nh</a></li>
-                            </ul>
-                        </li>                    
-                        <li class="dropdown"><a href="blog.html">Màn rèm <i class="fa fa-angle-down"></i></a>
-                            <ul role="menu" class="sub-menu">
-                                <li><a href="blog.html">Màn v?i</a></li>
-                                <li><a href="blogtwo.html">Màn cu?n</a></li>
-                                <li><a href="blogone.html">Màn c?u v?ng</a></li>
-                                <li><a href="blogthree.html">Màn sáo</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="shortcodes.html ">Tranh Dán T??ng</a></li>
-                        <li class="dropdown"><a href="portfolio.html">Khác <i class="fa fa-angle-down"></i></a>
-                            <ul role="menu" class="sub-menu">
-                                <li><a href="portfolio.html">Gi?y dán t??ng</a></li>
-                                <li><a href="portfoliofour.html">Sàn g?</a></li>
-                                <li><a href="portfolioone.html">Giàn ph?i thông minh</a></li>
-                            </ul>
-                        </li>                         
-                        
-                    </ul>
-                </div>
-                <div class="search">
-                    <a href="tel:0976880020"><i class="fa fa-phone"></i></a>
-                </div>
-            </div>
-        </div>
-    </header>
-
-
-    <div id="main" role="main">
-      {{ content }}
+      </div>
     </div>
+    <div class="navbar navbar-inverse" role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
-    <footer id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center bottom-separator">
-                    <img src="images/home/under.png" class="img-responsive inline" alt="">
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="testimonial bottom">
-                        <h2>T? Khách Hàng</h2>
-                        <div class="media">
-                            <div class="pull-left">
-                                <a href="#"><img src="images/home/profile1.png" alt=""></a>
-                            </div>
-                            <div class="media-body">
-                                <blockquote>T? v?n t?n tình, chuyên nghi?p và vui v?. S?n ph?m c?ng r?t t?t.</blockquote>
-                                <h3><a href="#">- Chú Khoan</a></h3>
-                            </div>
-                         </div>
-                        <div class="media">
-                            <div class="pull-left">
-                                <a href="#"><img src="images/home/profile2.png" alt=""></a>
-                            </div>
-                            <div class="media-body">
-                                <blockquote>Anh em th? thi công ch?c ch?n, s?ch s? và g?n gàng. Có s? c? gì g?i cho th? ??n li?n. 5*</blockquote>
-                                <h3><a href="">- Cô H?ng</a></h3>
-                            </div>
-                        </div>   
-                    </div> 
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="contact-info bottom">
-                        <h2>Liên h?</h2>
-                        <address>
-                        E-mail: <a href="mailto:trangtrigiaviet@gmail.com">trangtrigiaviet@email.com</a> <br> 
-                        Vietel: 0976 88 00 20 (Zalo) <br> 
-                        Mobile: 0938 564 785 <br> 
-                        {% include svg-icons.html %}
-                        </address>
+          <a class="navbar-brand" href="/">
+            <h1><img src="svg/logo.svg" alt="{{ site.name }}"></h1>
+          </a>
 
-                        <h2>??a ch?</h2>
-                        <address>
-                        19, ???ng 29 Tháng 3 <br> 
-                        Hòa Xuân, <br> 
-                        C?m L? <br> 
-                        ?à N?ng <br> 
-                        </address>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="contact-form bottom">
-                        <h2>Hãy G?i l?i cho tôi</h2>
-                        <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
-                            <div class="form-group">
-                                <input type="text" name="name" class="form-control" required="required" placeholder="Tên">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" name="phone" class="form-control" required="required" placeholder="?i?n tho?i">
-                            </div>
-                            <div class="form-group">
-                                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Ghi chú"></textarea>
-                            </div>                        
-                            <div class="form-group">
-                                <input type="submit" name="submit" class="btn btn-submit" value="G?i">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-sm-12">
-                    <div class="copyright-text text-center">
-                        <p>&copy; Sinh Tài Corp 2019. All Rights Reserved.</p>
-                        <p>Designed by <a target="_blank" href="https://huuthanhdtd.com">IIOT Dev</a></p>
-                    </div>
-                </div>
-            </div>
         </div>
-    </footer>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="/" alt="{{ site.description }}">Home</a></li>
+            <li class="dropdown"><a href="#">C?a l??i ch?ng mu?i <i class="fa fa-angle-down"></i></a>
+              <ul role="menu" class="sub-menu">
+                <li><a href="aboutus.html">C?a l??i d?ng x?p</a></li>
+                <li><a href="aboutus2.html">C?a l??i d?ng cu?n</a></li>
+                <li><a href="service.html">C?a l??i d?ng lÃ¹a</a></li>
+                <li><a href="pricing.html">C?a l??i c? ??nh</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="blog.html">MÃ n rÃ¨m <i class="fa fa-angle-down"></i></a>
+              <ul role="menu" class="sub-menu">
+                <li><a href="blog.html">MÃ n v?i</a></li>
+                <li><a href="blogtwo.html">MÃ n cu?n</a></li>
+                <li><a href="blogone.html">MÃ n c?u v?ng</a></li>
+                <li><a href="blogthree.html">MÃ n sÃ¡o</a></li>
+              </ul>
+            </li>
+            <li><a href="shortcodes.html ">Tranh DÃ¡n T??ng</a></li>
+            <li class="dropdown"><a href="portfolio.html">KhÃ¡c <i class="fa fa-angle-down"></i></a>
+              <ul role="menu" class="sub-menu">
+                <li><a href="portfolio.html">Gi?y dÃ¡n t??ng</a></li>
+                <li><a href="portfoliofour.html">SÃ n g?</a></li>
+                <li><a href="portfolioone.html">GiÃ n ph?i thÃ´ng minh</a></li>
+              </ul>
+            </li>
 
-    <script type="text/javascript" src="/js/jquery.js"></script>
-    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/js/lightbox.min.js"></script>
-    <script type="text/javascript" src="/js/wow.min.js"></script>
-    <script type="text/javascript" src="/js/main.js"></script>   
+          </ul>
+        </div>
+        <div class="search">
+          <a href="tel:0976880020"><i class="fa fa-phone"></i></a>
+        </div>
+      </div>
+    </div>
+  </header>
 
-    {% include analytics.html %}
-  </body>
+
+  <div id="main" role="main">
+    {{ content }}
+  </div>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center bottom-separator">
+          <img src="images/home/under.png" class="img-responsive inline" alt="">
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="testimonial bottom">
+            <h2>T? KhÃ¡ch HÃ ng</h2>
+            <div class="media">
+              <div class="pull-left">
+                <a href="#"><img src="images/home/profile1.png" alt=""></a>
+              </div>
+              <div class="media-body">
+                <blockquote>T? v?n t?n tÃ¬nh, chuyÃªn nghi?p vÃ  vui v?. S?n ph?m c?ng r?t t?t.</blockquote>
+                <h3><a href="#">- ChÃº Khoan</a></h3>
+              </div>
+            </div>
+            <div class="media">
+              <div class="pull-left">
+                <a href="#"><img src="images/home/profile2.png" alt=""></a>
+              </div>
+              <div class="media-body">
+                <blockquote>Anh em th? thi cÃ´ng ch?c ch?n, s?ch s? vÃ  g?n gÃ ng. CÃ³ s? c? gÃ¬ g?i cho th? ??n li?n. 5*
+                </blockquote>
+                <h3><a href="">- CÃ´ H?ng</a></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="contact-info bottom">
+            <h2>LiÃªn h?</h2>
+            <address>
+              E-mail: <a href="mailto:trangtrigiaviet@gmail.com">trangtrigiaviet@email.com</a> <br>
+              Vietel: 0976 88 00 20 (Zalo) <br>
+              Mobile: 0938 564 785 <br>
+              {% include svg-icons.html %}
+            </address>
+
+            <h2>??a ch?</h2>
+            <address>
+              19, ???ng 29 ThÃ¡ng 3 <br>
+              HÃ²a XuÃ¢n, <br>
+              C?m L? <br>
+              ?Ã  N?ng <br>
+            </address>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="contact-form bottom">
+            <h2>HÃ£y G?i l?i cho tÃ´i</h2>
+            <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" required="required" placeholder="TÃªn">
+              </div>
+              <div class="form-group">
+                <input type="text" name="phone" class="form-control" required="required" placeholder="?i?n tho?i">
+              </div>
+              <div class="form-group">
+                <textarea name="message" id="message" required="required" class="form-control" rows="8"
+                  placeholder="Ghi chÃº"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" name="submit" class="btn btn-submit" value="G?i">
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-sm-12">
+          <div class="copyright-text text-center">
+            <p>&copy; Sinh TÃ i Corp 2019. All Rights Reserved.</p>
+            <p>Designed by <a target="_blank" href="https://huuthanhdtd.com">IIOT Dev</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="/js/jquery.js"></script>
+  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/js/lightbox.min.js"></script>
+  <script type="text/javascript" src="/js/wow.min.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
+
+  {% include analytics.html %}
+</body>
+
 </html>
