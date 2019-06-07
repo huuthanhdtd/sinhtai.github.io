@@ -68,13 +68,22 @@ jQuery(function($) {'use strict';
 	form.submit(function(event){
 		event.preventDefault();
 		var form_status = $('<div class="form_status"></div>');
+		var _name = $('#name').val().trim();
+		var _phone = encodeURIComponent($('#phone').val());
+		var _message = $('#message').val();
 		$.ajax({
-			url: $(this).attr('action'),
+			url: 'https://docs.google.com/forms/d/e/1FAIpQLSfELJFTHpFYhkOUW9EMTbWlml_r8z7whX9TzTKR8VDEQI6NWQ/formResponse', //$(this).attr('action'),
+			data: {"entry.1557289730": _name, 
+				"entry.1860932712": _phone, 
+				"entry.1971688140": _message, 
+			},
+			type: "POST",
+			dataType: "xml",
 			beforeSend: function(){
-				form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Email is sending...</p>').fadeIn() );
+				form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i>Đang gửi..</p>').fadeIn() );
 			}
 		}).done(function(data){
-			form_status.html('<p class="text-success">Thank you for contact us. As early as possible  we will contact you</p>').delay(3000).fadeOut();
+			form_status.html('<p class="text-success">Cảm ơn bạn! Chúng tôi sẽ gọi cho bạn sớm nhé</p>').delay(3000).fadeOut();
 		});
 	});
 

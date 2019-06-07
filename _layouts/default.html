@@ -58,18 +58,18 @@
             <li class="active"><a href="/">Home</a></li>
             <li class="dropdown"><a href="javascript:;" class="toggle">Cửa lưới chống muỗi <i class="fa fa-angle-down"></i></a>
               <ul role="menu" class="sub-menu">
-                <li><a href="/cua-luoi-dang-xep/">Cửa lưới dạng xếp</a></li>
-                <li><a href="/cua-luoi-dang-cuon/">Cửa lưới dạng cuốn</a></li>
-                <li><a href="/cua-luoi-dang-lua/">Cửa lưới dạng lùa</a></li>
-                <li><a href="/cua-luoi-dang-co-dinh/">Cửa lưới cố định</a></li>
+                <li><a href="/cua-luoi-chong-muoi-dang-xep/">Cửa lưới dạng xếp</a></li>
+                <li><a href="/cua-luoi-chong-muoi-dang-cuon/">Cửa lưới dạng cuốn</a></li>
+                <li><a href="/cua-luoi-chong-muoi-dang-lua/">Cửa lưới dạng lùa</a></li>
+                <li><a href="/cua-luoi-chong-muoi-dang-co-dinh/">Cửa lưới cố định</a></li>
               </ul>
             </li>
             <li class="dropdown"><a href="javascript:;" class="toggle">Màn rèm <i class="fa fa-angle-down"></i></a>
               <ul role="menu" class="sub-menu">
                 <li><a href="/man-vai/">Màn vải</a></li>
                 <li><a href="/man-cuon/">Màn cuộn</a></li>
-                <li><a href="blogone.html">Màn cầu vồng</a></li>
-                <li><a href="blogthree.html">Màn sáo</a></li>
+                <li><a href="/man-cau-vong/">Màn cầu vồng</a></li>
+                <li><a href="/man-sao/">Màn sáo</a></li>
               </ul>
             </li>
             <li><a href="https://tranhpro.com">Tranh Dán Tường</a></li>
@@ -80,18 +80,15 @@
                 <li><a href="/dan-phoi-thong-minh/">Giàn phơi thông minh</a></li>
               </ul>
             </li>
-
+            <li><a href="/about/">Giới thiệu</a></li>
           </ul>
         </div>
       </div>
     </div>
   </header>
 
-
-  
   {{ content }}
   
-
   <footer id="footer">
     <div class="container">
       <div class="row">
@@ -142,7 +139,7 @@
         <div class="col-md-4 col-sm-12">
           <div class="contact-form bottom">
             <h2>Hãy Gọi lại cho tôi</h2>
-            <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+            <form id="main-contact-form" name="contact-form" method="post" action="">
               <div class="form-group">
                 <input type="text" name="name" class="form-control" required="required" placeholder="Tên">
               </div>
@@ -161,7 +158,7 @@
         </div>
         <div class="col-sm-12">
           <div class="copyright-text text-center">
-            <p>&copy; Sinh Tài Corp 2019. All Rights Reserved.</p>
+            <p>&copy; {{ site.name }} 2019. All Rights Reserved.</p>
             <p>Designed by <a target="_blank" href="https://huuthanhdtd.com">IIOT Dev</a></p>
           </div>
         </div>
