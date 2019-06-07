@@ -3,15 +3,17 @@
         <div class="sidebar-item categories">
             <h3>Sản phẩm</h3>
             <ul class="nav navbar-stacked">
-                <li class="active"><a href="#">Cửa lưới chống muỗi<span class="pull-right">(1)</span></a></li>
-                <li><a href="#">Tranh dán tường<span class="pull-right">(8)</span></a></li>
-                <li><a href="#">Màn rèm<span class="pull-right">(4)</span></a></li>
-                <li><a href="#">Sàn gỗ<span class="pull-right">(9)</span></a></li>
+                <li class="active"><a href="/">Cửa lưới chống muỗi</a></li>
+                <li><a href="https://tranhpro.com">Tranh dán tường</a></li>
+                <li><a href="/giay-dan-tuong/">Giấy dán tường</a></li>
+                <li><a href="/man-rem/">Màn rèm</a></li>
+                <li><a href="/san-go/">Sàn gỗ</a></li>
+                <li><a href="/gian-phoi-thong-minh/">Giàn phơi thông minh</a></li>
             </ul>
         </div>
         
     </div>
-    <div class="sidebar-item  recent">
+    <div class="sidebar sidebar-item recent">
             <h3>Sản phẩm khác</h3>
             {% for post in site.posts limit:5 %}
             {% if page.url!=post.url %}
@@ -26,7 +28,7 @@
             {% endif %}
             {% endfor %}
         </div>
-    <div class="sidebar-item popular">
+    <div class="sidebar sidebar-item popular">
         <h3>Khách hàng</h3>
         <ul class="gallery">
             {% for post in site.posts limit:6 %}
