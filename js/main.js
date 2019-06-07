@@ -4,7 +4,7 @@ jQuery(function($) {'use strict';
 	$('li.dropdown').find('a.toggle').each(function(){
 		$(this).on('click', function(){
 			if( $(window).width() < 768 ) {
-				$(this).parent().next().slideToggle();
+				$(this).next().slideToggle();
 			}
 			return false;
 		});
