@@ -13,7 +13,7 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 
 # Phone number
 phone: 0976880020
-
+excerpt_separator: <!--more-->
 #
 # Flags below are optional
 #
