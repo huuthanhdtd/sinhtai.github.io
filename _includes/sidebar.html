@@ -11,5 +11,13 @@
         </div>
         
     </div>
+    <div class="sidebar-item popular">
+            <h3>Sản phẩm khác</h3>
+            <ul class="gallery">
+                {% for post in site.posts limit:1 %}
+                <li><a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}"></a></li>
+                {% endfor %}
+            </ul>
+        </div>
 </div>
 
