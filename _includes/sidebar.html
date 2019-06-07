@@ -16,7 +16,7 @@
             {% for post in site.posts limit:5 %}
             <div class="media">
                 <div class="pull-left">
-                    <a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}"></a>
+                    <a href="{{ post.url }}"><img src="{{ post.image }}" width="52px" alt="{{ post.title }}"></a>
                 </div>
                 <div class="media-body">
                     <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
@@ -28,7 +28,9 @@
         <h3>Sản phẩm khác</h3>
         <ul class="gallery">
             {% for post in site.posts limit:6 %}
+            {% if page.url!=post.url %}
             <li><a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}"></a></li>
+            {% endif %}
             {% endfor %}
         </ul>
     </div>
