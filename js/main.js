@@ -84,7 +84,8 @@ jQuery(function($) {'use strict';
 			},
 			statusCode: {
                 0: function() {
-                    form_status.html('<p class="text-success">Cảm ơn bạn! Chúng tôi sẽ gọi cho bạn sớm nhé</p>').delay(3000).fadeOut();
+					form_status.html('<p class="text-success">Cảm ơn bạn! Chúng tôi sẽ gọi cho bạn sớm nhé</p>').delay(3000).fadeOut();
+					form.trigger("reset");
                 },
                 200: function() {
 					form_status.html('<p class="text-success">Cảm ơn bạn! Chúng tôi sẽ gọi cho bạn sớm nhé</p>').delay(3000).fadeOut();
