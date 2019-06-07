@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cửa lưới chống muỗi dạng cuốn
-categories: [cửa lưới]
+categories: [Cửa lưới]
 image: /images/product/cua-luoi-dang-cuon.jpg
 ---
 
