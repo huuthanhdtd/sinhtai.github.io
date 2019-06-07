@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cửa lưới cố định
+title: Cửa lưới chống muỗi dạng cố định
 categories: [Cửa lưới]
 image: /images/product/cua-luoi-co-dinh.jpg
 ---

@@ -23,7 +23,9 @@ layout: default
                               <p>{{ content }}</p>
                               <div class="post-bottom overflow">
                                   <ul class="nav navbar-nav post-nav">
-                                      <li><a href="#"><i class="fa fa-tag"></i>Cửa lưới</a></li>
+                                      {% for category in page.categories %}
+                                      <li><a href="#"><i class="fa fa-tag"></i>{{ category }}</a></li>
+                                      {% endfor %}
                                       <li><a href="#"><i class="fa fa-heart"></i>32 lần đặt hàng</a></li>
                                       <li><a href="#"><i class="fa fa-comments"></i>3 bình luận</a></li>
                                   </ul>

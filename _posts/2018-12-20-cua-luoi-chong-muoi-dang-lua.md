@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cửa lưới dạng lùa
+title: Cửa lưới chống muỗi dạng lùa
 categories: [Cửa lưới]
 image: /images/product/cua-luoi-dang-lua.jpg
 ---
