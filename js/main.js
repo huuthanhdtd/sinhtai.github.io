@@ -81,10 +81,18 @@ jQuery(function($) {'use strict';
 			dataType: "xml",
 			beforeSend: function(){
 				form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i>Đang gửi..</p>').fadeIn() );
-			}
-		}).done(function(data){
-			form_status.html('<p class="text-success">Cảm ơn bạn! Chúng tôi sẽ gọi cho bạn sớm nhé</p>').delay(3000).fadeOut();
-		});
+			},
+			statusCode: {
+                0: function() {
+                    form_status.html('<p class="text-success">Cảm ơn bạn! Chúng tôi sẽ gọi cho bạn sớm nhé</p>').delay(3000).fadeOut();
+                },
+                200: function() {
+                    form_status.html('<p class="text-success">Cảm ơn bạn! Chúng tôi sẽ gọi cho bạn sớm nhé</p>').delay(3000).fadeOut();
+                }
+            }
+		})//.done(function(data){
+		//	form_status.html('<p class="text-success">Cảm ơn bạn! Chúng tôi sẽ gọi cho bạn sớm nhé</p>').delay(3000).fadeOut();
+		//});
 	});
 
 	// Progress Bar
