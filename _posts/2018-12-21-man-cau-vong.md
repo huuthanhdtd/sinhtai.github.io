@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Màn cầu vồng
-categories: Màn rèm
+categories: [Màn rèm]
 image: /images/product/man-cau-vong.jpg
 ---
 

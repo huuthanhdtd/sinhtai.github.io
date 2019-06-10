@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Màn rèm vải
-categories: Màn rèm
+categories: [Màn rèm]
 image: /images/product/man-rem-vai.jpg
 ---
 
