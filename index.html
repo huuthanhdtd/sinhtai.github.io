@@ -115,7 +115,7 @@ layout: default
  <!--/#features-->
 
 {% for category in site.categories %}
- <section id="recent-{{ category[0] | handleize }}" class="recent-projects">
+ <section id="recent-{{ category[0] | slugify }}" class="recent-projects">
     <div class="container">
         <div class="row">
             <h1 class="title text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">{{ category[0] }}</h1>
