@@ -25,5 +25,5 @@ Ngoài ra, Công ty chúng tôi còn có cả giấy dán tường Nhật Bản 
 Hãy đến với Gia Việt, bạn sẽ hoàn toàn yên tâm về chất lượng cũng như giá cả của sản phẩm.
 
 ### Liên hệ:
-0901 333 769 – 0938 27 04 88 (Ms Trí – Tp.Hồ Chí Minh)
-0938 564 875 – 0976 88 00 20 (Ms Trang – Tp.Đà Nẵng)
+- 0938 564 875 – 0976 88 00 20 (Ms Trang – Tp.Đà Nẵng)
+- 0901 333 769 – 0938 27 04 88 (Ms Trí – Tp.Hồ Chí Minh)

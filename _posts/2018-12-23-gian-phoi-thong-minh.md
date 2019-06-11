@@ -18,21 +18,21 @@ Hiện Công ty chúng tôi chuyên cung cấp giàn phơi gắn tường.
 
 Giàn phơi gắn tường hay còn gọi giàn phơi xếp ngang là sản phẩm dành cho những hộ gia đình không có diện tích lắp đặt giàn phơi trên trần ban công. Giàn phơi xếp ngang là sản phẩm tối ưu cho những hộ gia đình có diện tích nhỏ. Sản phẩm xếp ngang này rất dễ dàng đưa ra, thu vào mà không chiếm nhiều diện tích.
 
-Tên gọi sản phẩm|Giàn Phơi Xếp Tường Hàn Quốc
-Xuất xứ|nhập khẩu 100% Hàn Quốc
-Mã sản phẩm|giàn phơi xếp ngang đa năng nhập khẩu
-Bảo hành|24 tháng
-Kiểu dáng|hiện đại, đẹp mắt, chi tiết được đục bằng máy CNC.
-Chất liệu|100% hợp kim nhôm
-Màu sắc|màu bạc, màu đồng
-Kích thước|mở rộng 85 cm, chiều dài thanh phơi 2m
-Tải trọng|50kg
-Giá bán|**1,440,000** đ
+Tên gọi sản phẩm|: Giàn Phơi Xếp Tường Hàn Quốc
+Xuất xứ|: nhập khẩu 100% Hàn Quốc
+Mã sản phẩm|: giàn phơi xếp ngang đa năng nhập khẩu
+Bảo hành|: 24 tháng
+Kiểu dáng|: hiện đại, đẹp mắt, chi tiết được đục bằng máy CNC.
+Chất liệu|: 100% hợp kim nhôm
+Màu sắc|: màu bạc, màu đồng
+Kích thước|: mở rộng 85 cm, chiều dài thanh phơi 2m
+Tải trọng|: 50kg
+Giá bán|: **1,440,000** đ
 
 ## Ưu điểm khi sử dụng giàn phơi thông minh:
 
-✔ Giàn phơi tiết kiệm diện tích và có tính thẩm mỹ cao
-✔ Giàn phơi có cơ cấu nâng hạ nhanh chóng
-✔ Có khả năng chịu lực cao khi phơi đồ nặng
-✔ Giàn phơi linh động thay đổi hướng để đón ánh sáng
-✔ Giàn phơi dễ dàng sử dụng cho mọi đối tượng, người già hay trẻ em
+- Giàn phơi tiết kiệm diện tích và có tính thẩm mỹ cao
+- Giàn phơi có cơ cấu nâng hạ nhanh chóng
+- Có khả năng chịu lực cao khi phơi đồ nặng
+- Giàn phơi linh động thay đổi hướng để đón ánh sáng
+- Giàn phơi dễ dàng sử dụng cho mọi đối tượng, người già hay trẻ em
