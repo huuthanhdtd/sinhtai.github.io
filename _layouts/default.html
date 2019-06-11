@@ -74,7 +74,7 @@
               </ul>
             </li>
             <li><a href="https://tranhpro.com">Tranh Dán Tường</a></li>
-            <li {% if page.categories.first = 'Khác' %} class="active" {% endif %}><a href="javascript:;" class="toggle">Khác <i class="fa fa-angle-down"></i></a>
+            <li {% if page.url = '/giay-dan-tuong/' or page.url = '/san-go/' or page.url = '/gian-phoi-thong-minh/' %} class="active" {% endif %}><a href="javascript:;" class="toggle">Khác <i class="fa fa-angle-down"></i></a>
               <ul role="menu" class="sub-menu">
                 <li{% if page.url == '/giay-dan-tuong/' %} class="active" {% endif %}><a href="/giay-dan-tuong/">Giấy dán tường</a></li>
                 <li{% if page.url == '/san-go/' %} class="active" {% endif %}><a href="/san-go/">Sàn gỗ</a></li>
