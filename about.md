@@ -15,7 +15,7 @@ Khởi nghiệp từ 2013 với ý tưởng tạo ra sự khác biệt và gu th
         <div class="row">
             <div class="single-features">
                 <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <img src="images/home/image1.png" class="img-responsive" alt="">
+                    <img src="/images/home/image1.png" class="img-responsive" alt="">
                 </div>
                 <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
                     <h2>Cửa lưới chống muỗi</h2>
@@ -28,12 +28,12 @@ Khởi nghiệp từ 2013 với ý tưởng tạo ra sự khác biệt và gu th
                     <P>Chuyên cung cấp và thi công tranh dán tường 3D,5D,8D, tranh treo tường đẹp rẻ nhất Đà Nẵng. Tranh in công nghệ uv của Mỹ, in liền khổ không phải ghép nối như tranh giấy, chống va đập tốt, xé không rách, không ngấm nước, độ bền trên 10 năm, thi công nhanh gọn sạch sẽ.</P>
                 </div>
                 <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <img src="images/home/image2.png" class="img-responsive" alt="">
+                    <img src="/images/home/image2.png" class="img-responsive" alt="">
                 </div>
             </div>
             <div class="single-features">
                 <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <img src="images/home/image3.png" class="img-responsive" alt="">
+                    <img src="/images/home/image3.png" class="img-responsive" alt="">
                 </div>
                 <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
                     <h2>Màn rèm - sản phẩm khác</h2>
