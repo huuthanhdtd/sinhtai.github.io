@@ -4,7 +4,7 @@ title: Về chúng tôi
 permalink: /about/
 ---
 
-Chúng tôi là một công ty sáng tạo tập trung vào văn hóa, sang trọng, biên tập & nghệ thuật. Một nơi nào đó giữa sự tinh tế và đơn giản.
+Chúng tôi là một công ty sáng tạo tập trung vào văn hóa, sang trọng & nghệ thuật. Một nơi nào đó giữa sự tinh tế và đơn giản.
 
 ### Về chúng tôi
 
