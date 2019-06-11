@@ -56,7 +56,7 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li {% if page.url == site.url %} class="active" {% endif %}><a href="/">Home</a></li>
+            <li {% if page.url == site.baseurl %} class="active" {% endif %}><a href="/">Home</a></li>
             <li {% if page.url contains 'cua-luoi-chong-muoi' %} class="active" {% endif %}><a href="javascript:;" class="toggle">Cửa lưới chống muỗi <i class="fa fa-angle-down"></i></a>
               <ul role="menu" class="sub-menu">
                 <li{% if page.url == '/cua-luoi-chong-muoi-dang-xep/' %} class="active" {% endif %}><a href="/cua-luoi-chong-muoi-dang-xep/">Cửa lưới dạng xếp</a></li>
@@ -65,12 +65,12 @@
                 <li{% if page.url == '/cua-luoi-chong-muoi-dang-co-dinh/' %} class="active" {% endif %}><a href="/cua-luoi-chong-muoi-dang-co-dinh/">Cửa lưới cố định</a></li>
               </ul>
             </li>
-            <li class="dropdown"><a href="javascript:;" class="toggle">Màn rèm <i class="fa fa-angle-down"></i></a>
+            <li {% if page.url contains 'man-' %} class="active" {% endif %}><a href="javascript:;" class="toggle">Màn rèm <i class="fa fa-angle-down"></i></a>
               <ul role="menu" class="sub-menu">
-                <li><a href="/man-vai/">Màn vải</a></li>
-                <li><a href="/man-cuon/">Màn cuộn</a></li>
-                <li><a href="/man-cau-vong/">Màn cầu vồng</a></li>
-                <li><a href="/man-sao/">Màn sáo</a></li>
+                <li{% if page.url == '/man-rem-vai/' %} class="active" {% endif %}><a href="/man-rem-vai/">Màn vải</a></li>
+                <li{% if page.url == '/man-cuon/' %} class="active" {% endif %}><a href="/man-cuon/">Màn cuộn</a></li>
+                <li{% if page.url == '/man-cau-vong/' %} class="active" {% endif %}><a href="/man-cau-vong/">Màn cầu vồng</a></li>
+                <li{% if page.url == '/man-sao/' %} class="active" {% endif %}><a href="/man-sao/">Màn sáo</a></li>
               </ul>
             </li>
             <li><a href="https://tranhpro.com">Tranh Dán Tường</a></li>
