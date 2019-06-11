@@ -15,7 +15,8 @@
     </div>
     <div class="sidebar sidebar-item recent">
             <h3>Sản phẩm khác</h3>
-            {% for post in site.posts limit:5 %}
+            {% assign filtered_posts = site.posts | where: page.categories[0] %}
+            {% for post in filtered_posts limit:5 %}
             {% if page.url!=post.url %}
             <div class="media">
                 <div class="pull-left">
