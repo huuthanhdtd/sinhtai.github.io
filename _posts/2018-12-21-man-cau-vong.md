@@ -14,7 +14,7 @@ Tùy ý điều tiết ánh sáng theo kiểu màn ngang, và lợi ích không 
 Giá dao động từ 400.000 đ/m2 – 750.000 đ/m2
 Màn cầu vồng thực sự là một phát kiến độc đáo với khả năng điều chỉnh ánh sáng tiện lợi chưa từng có. Sự đa dạng về màu sắc, chủng loại đem lại cho khách hàng sự lựa chọn dễ dàng và hài lòng nhất.
 
-##Đặc điểm:
+## Đặc điểm:
 - Công năng ưu việt, dễ dàng điều chỉnh ánh sáng
 - Kiểu dáng hiện đại
 - Chất liệu vải không tráng phủ, thân thiện với môi trường, an toàn với con người
