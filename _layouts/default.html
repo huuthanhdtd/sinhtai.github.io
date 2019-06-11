@@ -74,11 +74,11 @@
               </ul>
             </li>
             <li><a href="https://tranhpro.com">Tranh Dán Tường</a></li>
-            <li class="dropdown"><a href="javascript:;" class="toggle">Khác <i class="fa fa-angle-down"></i></a>
+            <li {% if page.categories.first = 'Khác' %} class="active" {% endif %}><a href="javascript:;" class="toggle">Khác <i class="fa fa-angle-down"></i></a>
               <ul role="menu" class="sub-menu">
-                <li><a href="/giay-dan-tuong/">Giấy dán tường</a></li>
-                <li><a href="/san-go/">Sàn gỗ</a></li>
-                <li><a href="/gian-phoi-thong-minh/">Giàn phơi thông minh</a></li>
+                <li{% if page.url == '/giay-dan-tuong/' %} class="active" {% endif %}><a href="/giay-dan-tuong/">Giấy dán tường</a></li>
+                <li{% if page.url == '/san-go/' %} class="active" {% endif %}><a href="/san-go/">Sàn gỗ</a></li>
+                <li{% if page.url == '/gian-phoi-thong-minh/' %} class="active" {% endif %}><a href="/gian-phoi-thong-minh/">Giàn phơi thông minh</a></li>
               </ul>
             </li>
             <li{% if page.url == '/about/' %} class="active" {% endif %}><a href="/about/">Giới thiệu</a></li>
