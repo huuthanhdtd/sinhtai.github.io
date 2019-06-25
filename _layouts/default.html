@@ -74,10 +74,10 @@
               </ul>
             </li>
             <li><a href="https://tranhpro.com">Tranh Dán Tường</a></li>
-            <li class="dropdown{% if page.url == '/giay-dan-tuong/' or page.url == '/san-go/' or page.url == '/gian-phoi-thong-minh/' %} active {% endif %}"><a href="javascript:;" class="toggle">Khác <i class="fa fa-angle-down"></i></a>
+            <li class="dropdown{% if page.url == '/giay-dan-tuong/' or page.url == '/vai-dan-tuong/' or page.url == '/gian-phoi-thong-minh/' %} active {% endif %}"><a href="javascript:;" class="toggle">Khác <i class="fa fa-angle-down"></i></a>
               <ul role="menu" class="sub-menu">
                 <li{% if page.url == '/giay-dan-tuong/' %} class="active" {% endif %}><a href="/giay-dan-tuong/">Giấy dán tường</a></li>
-                <li{% if page.url == '/san-go/' %} class="active" {% endif %}><a href="/san-go/">Sàn gỗ</a></li>
+                <li{% if page.url == '/vai-dan-tuong/' %} class="active" {% endif %}><a href="/vai-dan-tuong/">Vải dán tường</a></li>
                 <li{% if page.url == '/gian-phoi-thong-minh/' %} class="active" {% endif %}><a href="/gian-phoi-thong-minh/">Giàn phơi thông minh</a></li>
               </ul>
             </li>
@@ -125,7 +125,7 @@
             <h2>Liên hệ</h2>
             <address>
               E-mail: <a href="mailto:trangtrigiaviet@gmail.com">trangtrigiaviet@email.com</a> <br>
-              Vietel: <a href="tel:0976880020">0976 88 00 20</a> (<a href="https://zalo.me/0976880020">Zalo</a>) <br>
+              Viettel: <a href="tel:0976880020">0976 88 00 20</a> (<a href="https://zalo.me/0976880020">Zalo</a>) <br>
               Mobile: <a href="tel:0938564785">0938 564 785</a><br>{% include svg-icons.html %}
             </address>
 
@@ -183,6 +183,7 @@
     s1.setAttribute('crossorigin','*');
     s0.parentNode.insertBefore(s1,s0);
     })();
+    document.getElementById("ordertimes").innerHTML = (Math.floor(Date.now() / 100000)).toString().slice(-4);
   </script>
   {% endif %}
   {% include analytics.html %}

@@ -3,6 +3,7 @@ layout: post
 title: Cửa lưới chống muỗi cố định
 categories: [Cửa lưới]
 image: /images/product/cua-luoi-co-dinh.jpg
+price: 600.000
 ---
 
 Cửa lưới Fix cố định ngăn chặn được bụi bẩn, ruồi, muỗi và côn trùng nhỏ thì nó còn có thể ngăn chặn được cả chuột, rắn rết có thể xâm nhập vào nhà.

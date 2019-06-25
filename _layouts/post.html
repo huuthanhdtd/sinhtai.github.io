@@ -19,14 +19,14 @@ layout: default
                           </div>
                           <div class="post-content overflow">
                               <h2 class="post-title bold"><a href="#">{{ page.title }}</a></h2>
-                              <h3 class="post-author"><a href="#">Cập nhật vào {{ page.date | date: "%e/%l/%Y" }}</a></h3>
+                              <h3 class="post-author"><a href="#">{{ page.price }} ₫</a></h3>
                               {{ content }}
                               <div class="post-bottom overflow">
                                   <ul class="nav navbar-nav post-nav">
                                       {% for category in page.categories %}
                                       <li><a href="#"><i class="fa fa-tag"></i>{{ category }}</a></li>
                                       {% endfor %}
-                                      <li><a href="#"><i class="fa fa-heart"></i>32 lần đặt hàng</a></li>
+                                      <li><a href="#"><i class="fa fa-heart"></i><span id="ordertimes"></span> lần đặt hàng</a></li>
                                   </ul>
                               </div>
                               <div class="blog-share">
