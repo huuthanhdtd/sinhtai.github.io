@@ -47,11 +47,11 @@ jQuery(function($) {'use strict';
 				return false;
 			});
 		}
+
+		if($('#ordertimes').length){
+			$('#ordertimes').text((Math.floor(Date.now() / 100000)).toString().slice(-4));
+		}
 		
-	});
-	
-	$( document ).ready(function() {
-		document.getElementById("ordertimes").innerHTML = (Math.floor(Date.now() / 100000)).toString().slice(-4);
 	});
 
 
