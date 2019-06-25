@@ -3,7 +3,7 @@ layout: post
 title: Giấy dán tường
 categories: [Khác]
 image: /images/product/giay-dan-tuong.jpg
-price: 800000
+price: 800.000₫/m²
 ---
 
 Giấy Dán Tường Hàn Quốc –  là loại giấy dán tường có chất lượng tốt nhất đang được khách hàng yêu thích và lựa chọn hàng đầu trong việc trang trí nhà cửa, phòng ngủ, phòng khách… 
