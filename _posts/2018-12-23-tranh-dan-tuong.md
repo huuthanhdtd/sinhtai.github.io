@@ -3,7 +3,7 @@ layout: post
 title: Tranh dán tường 3D-5D-8D
 categories: [Khác]
 image: /images/product/tranh-dan-tuong.jpg
-price: 800.000
+price: 800000
 ---
 
 Chuyên cung cấp và thi công tranh dán tường 3D,5D,8D, tranh treo tường đẹp rẻ nhất Đà Nẵng

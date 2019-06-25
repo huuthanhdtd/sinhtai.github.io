@@ -3,7 +3,7 @@ layout: post
 title: Cửa lưới chống muỗi dạng lùa
 categories: [Cửa lưới]
 image: /images/product/cua-luoi-dang-lua.jpg
-price: 800.000
+price: 800000
 ---
 
 Nhiều năm qua, cửa lưới lùa đã được khách hàng lựa chọn sử dụng cho dự án thiết kế cửa giúp ngăn chặn côn trùng xâm nhập vào bên trong nhà. 

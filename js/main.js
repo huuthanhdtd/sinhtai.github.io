@@ -47,7 +47,11 @@ jQuery(function($) {'use strict';
 				return false;
 			});
 		}
-
+		
+	});
+	
+	$( document ).ready(function() {
+		document.getElementById("ordertimes").innerHTML = (Math.floor(Date.now() / 100000)).toString().slice(-4);
 	});
 
 

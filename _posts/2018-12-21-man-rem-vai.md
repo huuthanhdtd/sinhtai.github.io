@@ -3,7 +3,7 @@ layout: post
 title: Màn rèm vải
 categories: [Màn rèm]
 image: /images/product/man-rem-vai.jpg
-price: 800.000
+price: 800000
 ---
 
 Rèm vải là loại rèm cửa được dùng phổ biến nhất hiện nay. Rèm vải có khả năng chống nắng và cản nhiệt cao. 
