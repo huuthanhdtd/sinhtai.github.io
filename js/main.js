@@ -49,7 +49,7 @@ jQuery(function($) {'use strict';
 		}
 
 		if($('#ordertimes').length){
-			$('#ordertimes').text((Math.floor(Date.now() / 100000) - 1000 + window.location.href.length).toString().slice(-4));
+			$('#ordertimes').text((Math.floor(Date.now() / 100000) - 4000 + window.location.href.length).toString().slice(-4));
 		}
 		
 	});
