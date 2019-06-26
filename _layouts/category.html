@@ -2,6 +2,21 @@
 layout: default
 ---
 
+<section id="page-breadcrumb">
+    <div class="vertical-center sun">
+         <div class="container">
+            <div class="row">
+                <div class="action">
+                    <div class="col-sm-12">
+                        <h1 class="title">{{ page.title }}</h1>
+                        {{ page.content }}
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!--/#page-breadcrumb-->
 
 <section id="recent-{{ page.category | slugify: 'latin' }}" class="recent-projects">
     <div class="container">
