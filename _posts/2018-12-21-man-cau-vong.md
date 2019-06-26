@@ -3,7 +3,7 @@ layout: post
 title: Màn cầu vồng
 categories: [Màn rèm]
 image: man-cau-vong.jpg
-price: 800.000₫/m tới
+price: từ 550.000₫/m ngang hoàn thiện
 ---
 
 Màn cầu vồng là sản phẩm kết hợp giữa hai tính năng màn ngang & màn cuốn, được thiết kế theo kiểu hai lớp vải màn dệt đan xen giữa dải xuyên sáng và dải không xuyên sáng.
