@@ -2,7 +2,7 @@
 layout: post
 title: Cửa lưới chống muỗi cố định
 categories: [Cửa lưới]
-image: /images/product/cua-luoi-co-dinh.jpg
+image: cua-luoi-co-dinh.jpg
 price: 600.000₫/m²
 ---
 

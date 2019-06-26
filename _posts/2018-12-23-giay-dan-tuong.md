@@ -2,7 +2,7 @@
 layout: post
 title: Giấy dán tường
 categories: [Khác]
-image: /images/product/giay-dan-tuong.jpg
+image: giay-dan-tuong.jpg
 price: 800.000₫/m²
 ---
 

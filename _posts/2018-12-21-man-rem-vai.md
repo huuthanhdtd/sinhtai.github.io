@@ -2,7 +2,7 @@
 layout: post
 title: Màn rèm vải
 categories: [Màn rèm]
-image: /images/product/man-rem-vai.jpg
+image: man-rem-vai.jpg
 price: 800.000₫/m tới
 ---
 

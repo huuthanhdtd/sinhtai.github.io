@@ -2,7 +2,7 @@
 layout: post
 title: Màn cầu vồng
 categories: [Màn rèm]
-image: /images/product/man-cau-vong.jpg
+image: man-cau-vong.jpg
 price: 800.000₫/m tới
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Vải dán tường
 categories: [Khác]
-image: /images/product/vai-dan-tuong.jpg
+image: vai-dan-tuong.jpg
 price: 3.000.000₫/m²
 ---
 
