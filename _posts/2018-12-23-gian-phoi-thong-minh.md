@@ -29,6 +29,7 @@ Màu sắc|: màu bạc, màu đồng
 Kích thước|: mở rộng 85 cm, chiều dài thanh phơi 2m
 Tải trọng|: 50kg
 Giá bán|: **1,440,000** đ
+{: .table }
 
 ## Ưu điểm khi sử dụng giàn phơi thông minh:
 
