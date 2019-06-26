@@ -18,12 +18,12 @@ layout: default
   </section>
   <!--/#page-breadcrumb-->
 
-<section id="recent-{{ page.category | slugify: 'latin' }}" class="recent-projects">
+<section id="recent-{{ page.catname | slugify: 'latin' }}" class="recent-projects">
     <div class="container">
         <div class="row">
-            <h1 class="title text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">{{ page.category }}</h1>
-            <p class="text-center padding-bottom wow fadeInDown" data-wow-duration="400ms" data-wow-delay="400ms">Một số sản phẩm {{ page.category }} tiêu biểu</p>
-            {% for post in site.categories.[page.category] %}
+            <h1 class="title text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">{{ page.catname }}</h1>
+            <p class="text-center padding-bottom wow fadeInDown" data-wow-duration="400ms" data-wow-delay="400ms">Một số sản phẩm {{ page.catname }} tiêu biểu</p>
+            {% for post in site.categories.[page.catname] %}
             <div class="col-sm-3 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                 <div class="portfolio-wrapper">   
                     <div class="portfolio-single">
