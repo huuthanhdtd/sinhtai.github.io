@@ -2,7 +2,8 @@
 layout: post
 title: Vải dán tường
 categories: [Khác]
-image: vai-dan-tuong.jpg
+image: /images/product/vai-dan-tuong.jpg
+thumb: /images/product/425x200/vai-dan-tuong.jpg
 price: 300.000₫/m² thi công hoàn thiện
 ---
 

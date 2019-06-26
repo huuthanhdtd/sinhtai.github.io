@@ -2,7 +2,8 @@
 layout: post
 title: Giàn phơi thông minh
 categories: [Khác]
-image: gian-phoi-thong-minh.jpg
+image: /images/product/gian-phoi-thong-minh.jpg
+thumb: /images/product/425x200/gian-phoi-thong-minh.jpg
 price: 1.440.000₫/bộ
 ---
 
