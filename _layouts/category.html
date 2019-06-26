@@ -1,0 +1,86 @@
+---
+layout: default
+---
+
+
+<section id="recent-{{ page.category | slugify: 'latin' }}" class="recent-projects">
+    <div class="container">
+        <div class="row">
+            <h1 class="title text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">{{ page.category }}</h1>
+            <p class="text-center padding-bottom wow fadeInDown" data-wow-duration="400ms" data-wow-delay="400ms">M?t s? s?n ph?m {{ page.category }} tiêu bi?u</p>
+            {% for post in site.categories.[page.category] %}
+            <div class="col-sm-3 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <div class="portfolio-wrapper">   
+                    <div class="portfolio-single">
+                        <div class="portfolio-thumb">
+                            <a href="{{ site.baseurl }}{{ post.url }}"><img src="/images/product/425x200/{{ post.image }}" class="img-responsive" alt="{{ post.title }}"></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+                        <p class="text-primary price">{{ post.price }}</p>
+                        {{ post.excerpt }}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!--/#recent-category-->
+
+<section id="action" class="responsive">
+    <div class="vertical-center">
+         <div class="container">
+            <div class="row">
+                <div class="action take-tour">
+                    <div class="col-sm-7 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <h1 class="title">Hãy liên h? ngay v?i chúng tôi</h1>
+                        <p>?? ???c t? v?n t?n tình &amp; chi ti?t nh?t.</p>
+                    </div>
+                    <div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <div class="tour-button">
+                            <a href="tel:0976880020" class="btn btn-common">0976.88.00.20</a>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/#action-->
+
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <div class="single-service">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <img src="images/home/icon1.png" alt="">
+                    </div>
+                    <h2>S?N PH?M ?A D?NG</h2>
+                    <p>Nhi?u l?a ch?n m?u mã, t? cu?n, x?p, c? ??nh…. và màu s?c theo ki?n trúc ngôi nhà b?n.</p>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="single-service">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                        <img src="images/home/icon2.png" alt="">
+                    </div>
+                    <h2>TH?M M? KI?N TRÚC</h2>
+                    <p>C?a l??i, rèm c?a hoà h?p và không làm ?nh h??ng t?i ki?n trúc s?n có ban ??u c?a ngôi nhà.</p>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                <div class="single-service">
+                    <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                        <img src="images/home/icon3.png" alt="">
+                    </div>
+                    <h2>B?O HÀNH</h2>
+                    <p>{{ site.name }} cam k?t s?n ph?m chính hãng, b?o hành s?n ph?m trong vòng 12 tháng</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/#services-->
