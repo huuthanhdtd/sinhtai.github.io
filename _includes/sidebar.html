@@ -6,7 +6,7 @@
         {% if page.url!=post.url %}
         <div class="media">
             <div class="pull-left">
-                <a href="{{ post.url }}"><img src="/images/product/425x200/{{ post.image }}" width="52px" alt="{{ post.title }}"></a>
+                <a href="{{ post.url }}"><img src="/images/product/425x200/{{ post.image }}" width="48px" alt="{{ post.title }}"></a>
             </div>
             <div class="media-body">
                 <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
@@ -17,13 +17,6 @@
         {% endfor %}
     </div>
     {% endfor %}
-    <div class="sidebar sidebar-item popular">
-        <h3>Khách hàng</h3>
-        <ul class="gallery">
-            {% for i in (1..6) %}
-            <li><a href="#"><img src="/images/home/client{{ i }}.png" alt="client{{ i }}"></a></li>
-            {% endfor %}
-        </ul>
-    </div>
+    
 </div>
 
