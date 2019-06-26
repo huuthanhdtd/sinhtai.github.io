@@ -4,7 +4,7 @@ title: Giàn phơi thông minh
 categories: [Khác]
 image: /images/product/gian-phoi-thong-minh.jpg
 thumb: /images/product/425x200/gian-phoi-thong-minh.jpg
-price: 1.440.000₫/bộ
+price: từ 1.650.000₫/bộ
 ---
 
 Giàn phơi thông minh được ra đời với mục đích thay thế các loại giàn phơi quần áo truyền thống như thanh phơi inox, dây phơi inox. 
@@ -29,7 +29,7 @@ Chất liệu|: 100% hợp kim nhôm
 Màu sắc|: màu bạc, màu đồng
 Kích thước|: mở rộng 85 cm, chiều dài thanh phơi 2m
 Tải trọng|: 50kg
-Giá bán|: **1,440,000** đ
+Giá bán|: **1.650.000**₫/bộ loại xếp, **1.700.000**₫/bộ loại tay quay, **15.000.000**₫/bộ loại có đèn sưởi
 {: .table }
 
 ## Ưu điểm khi sử dụng giàn phơi thông minh:
