@@ -27,7 +27,7 @@ layout: default
  <section id="recent-{{ category[0] | slugify: 'latin' }}" class="recent-projects">
     <div class="container">
         <div class="row">
-            <h1 class="title text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">{{ category[0] }}</h1>
+            <h1 class="title text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms"><a href="{{ site.baseurl }}{{ category[0] | slugify: 'latin' }}">{{ category[0] }}</a></h1>
             <p class="text-center padding-bottom wow fadeInDown" data-wow-duration="400ms" data-wow-delay="400ms">Một số sản phẩm {{ category[0] }} tiêu biểu</p>
             {% for post in category[1] %}
             <div class="col-sm-3 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
