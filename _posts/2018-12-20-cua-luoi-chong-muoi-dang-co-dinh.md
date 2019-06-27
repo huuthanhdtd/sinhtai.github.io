@@ -4,7 +4,9 @@ title: Cửa lưới chống muỗi cố định
 categories: [Cửa lưới]
 image: /images/product/cua-luoi-co-dinh.jpg
 thumb: /images/product/425x200/cua-luoi-co-dinh.jpg
-price: từ 550.000₫/m² tùy màu sắc
+priceText: từ 550.000₫/m² tùy màu sắc
+price: 550000
+sku: CL00001
 ---
 
 Cửa lưới Fix cố định ngăn chặn được bụi bẩn, ruồi, muỗi và côn trùng nhỏ thì nó còn có thể ngăn chặn được cả chuột, rắn rết có thể xâm nhập vào nhà.

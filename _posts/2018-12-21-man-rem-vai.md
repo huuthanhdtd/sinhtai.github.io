@@ -4,7 +4,9 @@ title: Màn rèm vải
 categories: [Màn rèm]
 image: /images/product/man-rem-vai.jpg
 thumb: /images/product/425x200/man-rem-vai.jpg
-price: từ 400.000₫/m ngang hoàn thiện
+priceText: từ 400.000₫/m ngang hoàn thiện
+price: 400000
+sku: MR00002
 ---
 
 Rèm vải là loại rèm cửa được dùng phổ biến nhất hiện nay. Rèm vải có khả năng chống nắng và cản nhiệt cao. 

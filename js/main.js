@@ -49,7 +49,8 @@ jQuery(function($) {'use strict';
 		}
 
 		if($('#ordertimes').length){
-			$('#ordertimes').text((Math.floor(Date.now() / 100000) - 4000 + window.location.href.length).toString().slice(-4));
+			var len = window.location.href.length
+			$('#ordertimes').text((Math.floor(Date.now() / 100000) - 4000 + len * 9 + len).toString().slice(-4));
 		}
 		
 	});

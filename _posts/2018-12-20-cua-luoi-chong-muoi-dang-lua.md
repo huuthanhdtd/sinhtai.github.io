@@ -4,7 +4,9 @@ title: Cửa lưới chống muỗi dạng lùa
 categories: [Cửa lưới]
 image: /images/product/cua-luoi-dang-lua.jpg
 thumb: /images/product/425x200/cua-luoi-dang-lua.jpg
-price: từ 750.000₫/m² tùy màu sắc
+priceText: từ 750.000₫/m² tùy màu sắc
+price: 750000
+sku: CL00003
 ---
 
 Nhiều năm qua, cửa lưới lùa đã được khách hàng lựa chọn sử dụng cho dự án thiết kế cửa giúp ngăn chặn côn trùng xâm nhập vào bên trong nhà. 

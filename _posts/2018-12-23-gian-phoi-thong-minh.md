@@ -4,7 +4,9 @@ title: Giàn phơi thông minh
 categories: [Khác]
 image: /images/product/gian-phoi-thong-minh.jpg
 thumb: /images/product/425x200/gian-phoi-thong-minh.jpg
-price: từ 1.650.000₫/bộ
+priceText: từ 1.650.000₫/bộ
+price: 1650000
+sku: GP00001
 ---
 
 Giàn phơi thông minh được ra đời với mục đích thay thế các loại giàn phơi quần áo truyền thống như thanh phơi inox, dây phơi inox. 
