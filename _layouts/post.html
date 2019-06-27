@@ -8,7 +8,7 @@ layout: default
       <meta itemprop="mpn" content="{{ page.sku }}" />
       <meta itemprop="name" content="{{ page.title }}" />
       <link itemprop="image" href="{{ page.image }}" />
-      <meta itemprop="description" content="{{ page.excerpt | uri_escape}}" />
+      <meta itemprop="description" content="{{ page.excerpt | strip_html }}" />
       <div itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
         <link itemprop="url" href="{{ site.baseurl }}{{ page.url }}" />
         <meta itemprop="availability" content="https://schema.org/InStock" />
