@@ -47,13 +47,13 @@ layout: default
                    <div class="col-md-12 col-sm-12">
                       <div class="single-blog blog-details">
                           <div class="post-thumb">
-                              <a href="#"><img src="{{ page.image }}" class="img-responsive" alt="{{ page.title }}"></a>
+                              <img src="{{ page.image }}" class="img-responsive" alt="{{ page.title }}">
                               <div class="post-overlay">
                                   <span class="uppercase"><a href="#">{{ page.date | date: "%e <br><small>T%l</small>" }}</a></span>
                               </div>
                           </div>
                           <div class="post-content overflow">
-                              <h2 class="post-title bold"><a href="#">{{ page.title }}</a></h2>
+                              <h2 class="post-title bold">{{ page.title }}</h2>
                               <h3 class="post-author"><a href="#">{{ page.priceText }}</a></h3>
                               {{ content }}
                               <div class="post-bottom overflow">
@@ -63,15 +63,7 @@ layout: default
                                       {% endfor %}
                                       <li><a href="#"><i class="fa fa-heart"></i><span id="ordertimes">1230</span> lần đặt hàng</a></li>
                                   </ul>
-                              </div>
-                              <div class="blog-share">
-                                  <span class='st_facebook_hcount'></span>
-                                  <span class='st_twitter_hcount'></span>
-                                  <span class='st_linkedin_hcount'></span>
-                                  <span class='st_pinterest_hcount'></span>
-                                  <span class='st_email_hcount'></span>
-                              </div>
-                              
+                              </div>                             
                               {% include disqus.html %}               
                           
                           </div>
