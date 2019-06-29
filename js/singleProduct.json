@@ -2,7 +2,7 @@
   "@context": "https://schema.org/",
   "@type": "Product",
   "name": "{{ page.title }}",
-  "image": ["{{ page.image }}"],
+  "image": ["https://cualuoidanang.com{{ page.image }}"],
   "description": "{{ page.excerpt | strip_html }}",
   "sku": "{{ page.sku }}",
   "mpn": "{{ page.sku }}",
