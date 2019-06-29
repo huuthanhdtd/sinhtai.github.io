@@ -4,8 +4,8 @@
         {
             "@type": ["Organization", "Place", "LocalBusiness"],
             "@id": "https://cualuoidanang.com/#localbusiness",
-            "name": "CửaLướiĐà Nẵng.com",
-            "url": "https://cualuoidang.com/",
+            "name": "CửaLướiĐàNẵng.com",
+            "url": "https://cualuoidanang.com/",
             "sameAs": [
                 "https://www.facebook.com/cualuoidanang/"
             ],
@@ -13,7 +13,7 @@
                 "@type": "ImageObject",
                 "@id": "https://cualuoidanang.com/#logo",
                 "url": "https://cualuoidanang.com/images/logo.png",
-                "caption": "CửaLướiĐà Nẵng.com"
+                "caption": "CửaLướiĐàNẵng.com"
             },
             "image":"https://cualuoidanang.com/images/logo.png",
             "address": {
