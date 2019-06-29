@@ -50,7 +50,7 @@ jQuery(function($) {'use strict';
 
 		if($('#ordertimes').length){
 			var len = window.location.href.length
-			$('#ordertimes').text((Math.floor(Date.now() / 100000) - 4000 + len * 9 + len).toString().slice(-4));
+			$('#ordertimes').text((Math.floor(Date.now() / 1000000) - 1000 + len * 9 + len).toString().slice(-4));
 		}
 		
 	});
