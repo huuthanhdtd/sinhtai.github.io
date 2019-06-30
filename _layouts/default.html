@@ -62,6 +62,10 @@
             <li {% if page.url == "/" %} class="active" {% endif %}><a href="/">Home</a></li>
             <li class="dropdown{% if page.url contains 'cua-luoi-chong-muoi' %} active{% endif %}"><a href="javascript:;" class="toggle">Cửa lưới chống muỗi <i class="fa fa-angle-down"></i></a>
               <ul role="menu" class="sub-menu">
+                <li{% if page.url == '/cua-luoi-chong-muoi-xep-xich-ghep-canh/' %} class="active" {% endif %}><a href="/cua-luoi-chong-muoi-xep-xich-ghep-canh/">Cửa lưới xếp xích ghép cánh</a></li>
+                <li{% if page.url == '/cua-luoi-chong-muoi-khong-ray/' %} class="active" {% endif %}><a href="/cua-luoi-chong-muoi-khong-ray/">Cửa lưới xếp không ray</a></li>
+                <li{% if page.url == '/cua-luoi-an-toan-chong-muoi-he-mo-quay/' %} class="active" {% endif %}><a href="/cua-luoi-an-toan-chong-muoi-he-mo-quay/">Cửa lưới an toàn hệ mở quay</a></li>
+                <li{% if page.url == '/cua-luoi-an-toan-chong-muoi-he-lua/' %} class="active" {% endif %}><a href="/cua-luoi-an-toan-chong-muoi-he-lua/">Cửa lưới an toàn hệ lùa</a></li>
                 <li{% if page.url == '/cua-luoi-chong-muoi-dang-xep/' %} class="active" {% endif %}><a href="/cua-luoi-chong-muoi-dang-xep/">Cửa lưới dạng xếp</a></li>
                 <li{% if page.url == '/cua-luoi-chong-muoi-dang-cuon/' %} class="active" {% endif %}><a href="/cua-luoi-chong-muoi-dang-cuon/">Cửa lưới dạng cuốn</a></li>
                 <li{% if page.url == '/cua-luoi-chong-muoi-dang-lua/' %} class="active" {% endif %}><a href="/cua-luoi-chong-muoi-dang-lua/">Cửa lưới dạng lùa</a></li>
