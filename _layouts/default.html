@@ -28,18 +28,17 @@
   </script>
   {% if page.title %}
     {% if page.categories %}
-    <script type="application/ld+json">
-      {"@context":"https://schema.org/","@type":"BreadcrumbList","@id":"https://cualuoidanang.com/#breadcrumblist","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"{{ page.url }}#category","url":"https://cualuoidanang.com{{ page.url }}","name":"{{ page.categories | join: ', ' }}"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"{{ page.url }}","url":"https://cualuoidanang.com{{ page.url }}","name":"{{ page.title }}"}}]}
-    </script>
+  <script type="application/ld+json">
+    {"@context":"https://schema.org/","@type":"BreadcrumbList","@id":"https://cualuoidanang.com/#breadcrumblist","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"{{ page.url }}#category","url":"https://cualuoidanang.com{{ page.url }}","name":"{{ page.categories | join: ', ' }}"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"{{ page.url }}","url":"https://cualuoidanang.com{{ page.url }}","name":"{{ page.title }}"}}]}
+  </script>
     {% else %}
-    <script type="application/ld+json">
-      {"@context":"https://schema.org/","@type":"BreadcrumbList","@id":"https://cualuoidanang.com/#breadcrumblist","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"{{ page.url }}","url":"https://cualuoidanang.com{{ page.url }}","name":"{{ page.title }}"}}]}
-    </script>
+  <script type="application/ld+json">
+    {"@context":"https://schema.org/","@type":"BreadcrumbList","@id":"https://cualuoidanang.com/#breadcrumblist","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"{{ page.url }}","url":"https://cualuoidanang.com{{ page.url }}","name":"{{ page.title }}"}}]}
+  </script>
     {% endif %}
   {% else %}
   <script type="application/ld+json">
     {"@context": "https://schema.org/","@type":"BreadcrumbList","@id":"https://cualuoidanang.com/#breadcrumblist","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://cualuoidanang.com/#breadcrumlist1","url":"https://cualuoidanang.com/","name":"Cửa lưới chống muỗi"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://cualuoidanang.com/man-rem/#breadcrumlist2","url":"https://cualuoidanang.com/man-rem","name":"Màn rèm"}}]}
-    
   </script>
   {% endif %}
 </head>
@@ -124,21 +123,21 @@
             <h2>Từ Khách Hàng</h2>
             <div class="media">
               <div class="pull-left">
-                <a href="#"><img src="/images/home/profile1.png" alt=""></a>
+                <img src="/images/home/profile1.png" alt="Khách hàng">
               </div>
               <div class="media-body">
                 <blockquote>Tư vấn tận tình, chuyên nghiệp và vui vẻ. Sản phẩm cũng rất tốt.</blockquote>
-                <h3><a href="#">- Chú Khoan</a></h3>
+                <h3>- Chú Khoan</h3>
               </div>
             </div>
             <div class="media">
               <div class="pull-left">
-                <a href="#"><img src="/images/home/profile2.png" alt=""></a>
+                <img src="/images/home/profile2.png" alt="Khách hàng">
               </div>
               <div class="media-body">
                 <blockquote>Anh em thợ thi công chắc chắn, sạch sẽ và gọn gàng. Có sự cố gì gọi cho thợ đến liền. 5*
                 </blockquote>
-                <h3><a href="">- Cô Hồng</a></h3>
+                <h3>- Cô Hồng</h3>
               </div>
             </div>
           </div>
@@ -153,11 +152,13 @@
             </address>
 
             <h2>Địa chỉ</h2>
-            <address>
+            <a href="https://goo.gl/maps/86m7zZkQQZJVby1M9">
+              <address>
               648, Đường 29 Tháng 3 <br>
               Hòa Xuân, Cẩm Lệ <br>
               TP Đà Nẵng <br>
-            </address>
+              </address>
+            </a>
           </div>
         </div>
         <div class="col-md-4 col-sm-12">
@@ -165,7 +166,7 @@
             <h2>Hãy Gọi lại cho tôi</h2>
             <form id="main-contact-form" name="contact-form" method="post" action="">
               <div class="form-group">
-                <input type="text" name="name" id="name" class="form-control" required="required" placeholder="Tên">
+                <input type="text" name="name" id="name" class="form-control" required="required" placeholder="Tên Anh/Chị">
               </div>
               <div class="form-group">
                 <input type="text" name="phone" id="phone" class="form-control" required="required" placeholder="Điện thoại">
