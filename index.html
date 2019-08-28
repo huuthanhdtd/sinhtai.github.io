@@ -22,13 +22,6 @@ layout: default
 </section>
 <!--/#home-slider-->
 
-{% for eachcollection in site.collections %}
-       {{  eachcollection.label }}
-      {% for eachpost in site.[eachcollection.label] %}
-              {{  eachpost.title }}
-      {% endfor %}
-  {% endfor %}
-
 {% for category in site.categories %}
  <section id="recent-{{ category[0] | slugify: 'latin' }}" class="recent-projects">
     <div class="container">
