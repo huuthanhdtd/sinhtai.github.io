@@ -23,9 +23,9 @@ layout: default
 <!--/#home-slider-->
 
 {% for eachcollection in site.collections %}
-       { {  eachcollection.label }}
+       {{  eachcollection.label }}
       {% for eachpost in site.[eachcollection.label] %}
-              { {  eachpost.title }}
+              {{  eachpost.title }}
       {% endfor %}
   {% endfor %}
 
