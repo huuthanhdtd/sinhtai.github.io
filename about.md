@@ -48,4 +48,4 @@ Khởi nghiệp từ 2013 với ý tưởng tạo ra sự khác biệt và gu th
 
 ### Liên hệ
 
-[trangtrigiaviet@gmail.com](mailto:trangtrigiaviet@gmail.com)
+[trangtrinhasinhtai@gmail.com](mailto:trangtrinhasinhtai@gmail.com)
