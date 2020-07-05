@@ -26,7 +26,7 @@ Giấy dán tường rất đa dạng về mẫu mã và màu sắc, phù hợp 
 
 Ngoài ra, Công ty chúng tôi còn có cả giấy dán tường Nhật Bản cũng được khách hàng rất ưa chuộng về độ bền, tính thẩm mỹ, khả năng lau chùi tốt. Giá thi công hoàn thiện 300k/m2
 
-Hãy đến với Gia Việt, bạn sẽ hoàn toàn yên tâm về chất lượng cũng như giá cả của sản phẩm.
+Hãy đến với Sinh Tài, bạn sẽ hoàn toàn yên tâm về chất lượng cũng như giá cả của sản phẩm.
 
 ### Liên hệ:
 - 0938 564 875 – 0976 88 00 20 (Ms Trang – Tp.Đà Nẵng)

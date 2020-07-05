@@ -8,7 +8,7 @@
   "mpn": "{{ page.sku }}",
   "brand": {
     "@type": "Thing",
-    "name": "Gia Việt"
+    "name": "Sinh Tài"
   },
   "review": {
     "@type": "Review",
