@@ -18,7 +18,7 @@
             "image":"https://cualuoidanang.com/images/logo.png",
             "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "191 Cách Mạng Tháng Tám, Phường Khuê Trung, Cẩm Lệ",
+                "streetAddress": "319 Phù Đổng, Phường Hòa Xuân, Cẩm Lệ",
                 "addressLocality": "Cẩm Lệ",
                 "addressRegion": "Đà Nẵng",
                 "postalCode": "550000",
@@ -91,7 +91,7 @@
             "address": {
                 "@type": "PostalAddress",
                 "@id": "https://cualuoidanang.com/#local-place-address",
-                "streetAddress": "191 Cách Mạng Tháng Tám, Phường Khuê Trung, Cẩm Lệ, Đà Nẵng",
+                "streetAddress": "319 Phù Đổng, Phường Hòa Xuân, Cẩm Lệ, Đà Nẵng",
                 "addressLocality": "Đà Nẵng",
                 "postalCode": "550000",
                 "addressRegion": "Đà Nẵng",
