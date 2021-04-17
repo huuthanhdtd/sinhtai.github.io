@@ -4,8 +4,8 @@ title: Cửa lưới chống muỗi dạng xếp
 categories: [Cửa lưới]
 image: /images/product/cua-luoi-dang-xep.jpg
 thumb: /images/product/425x200/cua-luoi-dang-xep.jpg
-priceText: từ 800.000₫/m² tùy màu sắc
-price: 800000
+priceText: từ 750.000₫/m² tùy màu sắc
+price: 750000
 sku: CL00004
 ---
 

@@ -4,8 +4,8 @@ title: Cửa lưới chống muỗi dạng cuốn
 categories: [Cửa lưới]
 image: /images/product/cua-luoi-dang-cuon.jpg
 thumb: /images/product/425x200/cua-luoi-dang-cuon.jpg
-priceText: từ 650.000₫/m² tùy màu sắc
-price: 650000
+priceText: từ 700.000₫/m² tùy màu sắc
+price: 700000
 sku: CL00002
 ---
 

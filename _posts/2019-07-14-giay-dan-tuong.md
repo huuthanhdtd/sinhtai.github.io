@@ -4,7 +4,7 @@ title: Giấy dán tường
 categories: [Khác]
 image: /images/product/giay-dan-tuong.jpg
 thumb: /images/product/425x200/giay-dan-tuong.jpg
-priceText: 1.200.000₫/cuộn thi công hoàn thiện
+priceText: từ 1.200.000₫/cuộn thi công hoàn thiện
 price: 1200000
 sku: GDT00001
 ---

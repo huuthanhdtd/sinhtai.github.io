@@ -4,8 +4,8 @@ title: Cửa lưới chống muỗi xếp xích ghép cánh
 categories: [Cửa lưới]
 image: /images/product/cua-luoi-xep-xich-ghep-canh.jpg
 thumb: /images/product/425x200/cua-luoi-xep-xich-ghep-canh.jpg
-priceText: từ 1.600.000₫/m² tùy màu sắc
-price: 1600000
+priceText: từ 1.700.000₫/m² tùy màu sắc
+price: 1700000
 sku: CL00008
 ---
 

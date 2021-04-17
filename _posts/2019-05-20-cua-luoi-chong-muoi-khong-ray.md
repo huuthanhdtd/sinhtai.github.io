@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cửa lưới chống muỗi không ray
+title: Cửa lưới chống muỗi không ray xếp xích
 categories: [Cửa lưới]
 image: /images/product/cua-luoi-xep-khong-ray.jpg
 thumb: /images/product/425x200/cua-luoi-xep-khong-ray.jpg
@@ -9,7 +9,7 @@ price: 1200000
 sku: CL00007
 ---
 
-Cửa lưới xếp xích không ray - nhôm sơn tĩnh điện, tay nắm âm, lưới sợi thủy tinh.
+Cửa lưới xếp xích không ray xếp xích - nhôm sơn tĩnh điện, tay nắm âm, lưới sợi thủy tinh.
 
 Cửa lưới chống muỗi kéo xếp, là mẫu sản phẩm được sử dụng nhiều nhất trong các dòng sản phẩm hiện nay của chúng tôi
 
