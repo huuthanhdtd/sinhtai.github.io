@@ -97,3 +97,8 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+algolia:
+  application_id: 7JHV5J4XBS
+  index_name: thams
+  search_only_api_key: 09fd31aee66dff36c9feff34773c4834
