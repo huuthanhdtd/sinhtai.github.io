@@ -21,7 +21,7 @@ layout: default
 <section id="recent-{{ page.catname | slugify: 'latin' }}" class="recent-projects">
     <div class="container">
         <div class="row padding-top">
-            {% for post in site.categories.[page.catname] %}
+            {% for post in site.categories[page.catname] %}
             <div class="col-sm-3 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                 <div class="portfolio-wrapper">   
                     <div class="portfolio-single">
