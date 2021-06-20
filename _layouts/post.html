@@ -22,6 +22,9 @@ layout: default
                               <h2 class="post-title bold">{{ page.title }}</h2>
                               <!-- <h3 class="post-author"><a href="#">{{ page.priceText }}</a></h3> -->
                               {{ content }}
+                              {% if page.gallery %}
+                              {% include gallery.html folder=page.gallery %}
+                              {% endif %}
                               <div class="post-bottom overflow">
                                   <ul class="nav navbar-nav post-nav">
                                       {% for category in page.categories %}

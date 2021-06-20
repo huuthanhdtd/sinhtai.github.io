@@ -3,7 +3,7 @@ layout: post
 title: Tranh dán tường 3D-5D-8D
 categories: [Khác]
 image: /images/product/tranh-dan-tuong.jpg
-thumb: /images/product/425x200/tranh-dan-tuong.jpg
+thumb: /images/product/tranh-dan-tuong.jpg
 priceText: từ 150.000₫/m² hoàn thiện
 price: 150000
 sku: TDT00001
