@@ -28,8 +28,11 @@ layout: default
         <div class="row">
             <h1 class="title text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">{{ category[0] }}</h1>
             <p class="text-center padding-bottom wow fadeInDown" data-wow-duration="400ms" data-wow-delay="400ms">Một số sản phẩm {{ category[0] }} tiêu biểu</p>
-            {% for post in category[1] limit:12 %}
-            <div class="col-sm-3 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+        </div>
+        <div class="row home-row">
+            {% for post in category[1] limit:10 %}
+            {% assign mod = forloop.index | modulo:5 %} 
+            <div class="col wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                 <div class="portfolio-wrapper">   
                     <div class="portfolio-single">
                         <div class="portfolio-thumb">
@@ -43,6 +46,10 @@ layout: default
                     </div>
                 </div>
             </div>
+            {% if mod == 0 %}
+            </div>
+            <div class="row home-row">
+            {% endif %}
             {% endfor %}
         </div>
     </div>

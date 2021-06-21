@@ -2566,6 +2566,58 @@ span {
   text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 
+.home-row {
+  display: flex;
+  flex-direction: column;
+  
+  .col {
+    padding: 0 15px;
+
+    // &:first-child {
+    //   padding-left: 0
+    // }
+    // &:last-child {
+    //   padding-right: 0
+    // }
+  }
+  // Small devices (landscape phones, 576px and up)
+  // @media (min-width: 576px) { 
+  //   flex-direction: row;
+  //   flex-shrink: 2;
+  //   .col {
+  //     flex: 50%;
+  //   }
+  // }
+
+  // Medium devices (tablets, 768px and up)
+  // @media (min-width: 768px) { 
+  //   flex-direction: row;
+  //   flex-shrink: 3;
+  //   .col {
+  //     flex: 33.333%;
+  //     padding: 0 10px;
+  //   }
+  // }
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+    flex-direction: row;
+    .col {
+      flex: 20.0%;
+    } 
+  }
+
+  // Extra large devices (large desktops, 1200px and up)
+  // @media (min-width: 1200px) { 
+  //   .col {
+  //     width: 19.0%;
+  //   }
+  // }
+
+}
+
+
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
